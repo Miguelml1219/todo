@@ -1,4 +1,4 @@
-package model;
+package com.todo.todo.model;
 
 public enum TaskStatus {
 

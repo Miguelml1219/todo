@@ -1,6 +1,6 @@
-package repository;
+package com.todo.todo.repository;
 
-import model.Task;
+import com.todo.todo.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TaskRepository extends JpaRepository<Task, Long> {
