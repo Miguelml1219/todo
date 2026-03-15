@@ -1,9 +1,9 @@
-package service;
+package com.todo.todo.service;
 
-import model.Task;
+import com.todo.todo.model.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.TaskRepository;
+import com.todo.todo.repository.TaskRepository;
 
 import java.util.List;
 

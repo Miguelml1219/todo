@@ -1,9 +1,9 @@
-package controller;
+package com.todo.todo.controller;
 
-import model.Task;
+import com.todo.todo.model.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.TaskService;
+import com.todo.todo.service.TaskService;
 
 import java.util.List;
 
